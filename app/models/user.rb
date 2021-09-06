@@ -11,4 +11,13 @@ class User < ActiveRecord::Base
          :trackable,
          :validatable
   include DeviseTokenAuth::Concerns::User
+
+  before_validation
+
+  private
+
+  def set_uid
+    self[:uid] = self[:email] if self[:uid].blank? && self[:email].present?
+  end
+
 end
