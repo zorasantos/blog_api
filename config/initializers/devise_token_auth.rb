@@ -59,13 +59,13 @@ DeviseTokenAuth.setup do |config|
   config.send_confirmation_email = true
 
   config.default_confirm_success_url = if Rails.env.production?
-    'http://blog-api/login'
+    'http://blog-ruby-api/login'
   else
     'http://localhost:4200/login'
   end
 
   config.default_password_reset_url = if Rails.env.production?
-    'http://blog-api/reset-password'
+    'http://blog-ruby-api/reset-password'
   else
     'http://localhost:4200/reset-password'
   end
