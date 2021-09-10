@@ -113,7 +113,7 @@ Rails.application.configure do
 
   # Email
   config.action_mailer.default_url_options = {
-    host: 'blog-api.herokuapp.com'
+    host: 'blog-ruby-api.herokuapp.com'
   }
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
