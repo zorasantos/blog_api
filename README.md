@@ -1,6 +1,6 @@
 # Github Actions
 
-![workflow](https://github.com/zorasantos/blog_api/actions/workflows/ruby.yml/badge.svg)
+![Tests](https://github.com/zorasantos/blog_api/actions/workflows/ruby.yml/badge.svg)
 
 # README
 
