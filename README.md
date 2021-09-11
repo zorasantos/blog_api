@@ -1,3 +1,7 @@
+# Github Actions
+
+![workflow](https://github.com/zorasantos/blog_api/actions/workflows/ruby.yml/badge.svg)
+
 # README
 
 This README would normally document whatever steps are necessary to get the
